@@ -1,0 +1,38 @@
+#container-box {
+    display: flex;
+    width: 320px;
+    height: 50px;
+    border: 2px solid black;
+    flex-direction: row;
+}
+
+.box {
+    border: 1px solid burlywood;
+    width: 80px;
+    height: auto
+}
+
+.box:nth-child(1) {
+    display: flex;
+}
+
+.part {
+    height: auto;
+    width: 40px;
+    border: 1px solid brown;
+}
+
+.box:nth-child(1),
+.box:nth-child(3) {
+    background-color: whitesmoke;
+}
+
+.box:nth-child(2),
+.box:nth-child(4) {
+    background-color: wheat;
+}
+
+#image {
+    height: 30px;
+    width: 40px;
+}
