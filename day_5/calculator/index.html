@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container-input">
+        <span id="error-num1"></span>
+        <label for="num1">Num1:</label>
+        <input type="number" name="num1" id="num1"><br><br>
+        <label for="num2">Num2:</label>
+        <input type="number" name="num2" id="num2"><br><br>
+        <label for="num2">Num3:</label>
+        <input type="number" name="num3" id="num3"><br><br>
+    </div>
+    <div id="output-container">
+        <span id="output"></span>
+    </div>
+    <div id="mathematic-operation">
+        <input type="button" value="ADD"
+            onclick="add(document.getElementById('num1').value,document.getElementById('num2').value,document.getElementById('num3').value)">
+        <input type="button" value="SUBTRACT" onclick="sub()">
+        <input type="button" value="MULTIPLY" onclick="mul()">
+        <input type="button" value="DIVIDE" onclick="div()">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

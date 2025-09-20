@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#bulb {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}

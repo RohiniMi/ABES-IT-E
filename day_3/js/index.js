@@ -1,7 +1,7 @@
 // console.log("Hello");
-// alert("This is a alert message");
+alert("This is a alert message");
 // console.error("This is the error message");
-// document.write("document message");
+document.write("document message");
 
 //variables
 
